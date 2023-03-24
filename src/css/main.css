@@ -1,0 +1,45 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+/* utils */
+
+@import url('./utils/vars.css');
+@import url('./utils/vh.css');
+
+/* base */
+@import url('./base/common.css');
+@import url('./base/reset.css');
+
+/* component */
+@import url('./components/container.css');
+
+/* layout */
+@import url('./loyout/header.css');
+@import url('./loyout/hero.css');
+@import url('./loyout/advantages.css');
+@import url('./loyout/unique-components.css');
+@import url('./loyout/how-its-made.css');
+@import url('./loyout/our-products.css');
+@import url('./loyout/top-sellers.css');
+@import url('./loyout/reviews.css');
+@import url('./loyout/subscribe.css');
+@import url('./loyout/footer.css');
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: #242424;
+  background-color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
