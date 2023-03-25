@@ -1,1 +1,64 @@
 /* винести кнопки, заголовки та інші компонентні елементи */
+
+.main-btn{
+    color: #fff;
+    background-color: #FD9222;
+    border-radius: 100px;
+    border-color: transparent;
+    padding: 12px 28px;
+}
+@media (min-width:375px){
+ .main-btn{
+   
+    padding: 14px 40px;
+}
+}
+.main-btn:hover{
+    color: #FD9222;
+    background-color: #FCF1E0;
+}
+
+
+.secondary-btn{
+    margin: 10px 10px;
+    color: #fff;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border:1px solid #FFFFFF ;
+    padding: 12px 28px;
+}
+@media (min-width:375px){
+ .secondary-btn{
+    padding: 14px 40px;
+}
+}
+.secondary-btn:hover{
+    color: #FD9222;
+    border: 1px solid #FD9222;
+}
+
+
+.inverted-btn{
+    margin: 10px 10px;
+    color: #11111;
+    border-radius: 100px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #FD9222;
+    padding: 12px 28px;
+}
+@media (min-width:375px){
+    .inverted-btn{
+    padding: 14px 40px;
+}
+
+}
+.inverted-btn:hover{
+    background-color: #FD9222;
+    color: #fff;
+}
+
+
+
+
+
+
