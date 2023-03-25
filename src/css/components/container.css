@@ -1,1 +1,7 @@
 /* винести кнопки, заголовки та інші компонентні елементи */
+.container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
