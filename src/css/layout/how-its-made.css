@@ -1,0 +1,93 @@
+
+.hitm-title {
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: var(--clr-txt-primery);
+}
+@media screen and (min-width: 768px) {
+    .hitm-title {
+        margin-bottom: 50px;
+        font-size: 24px;
+        line-height: 1.16;
+    }
+}
+    
+.him-title-scnd {
+    color: var(--clr-orange);
+}
+
+.hitm-block {
+    display: block;
+    padding: 20px 14px;
+    margin-top: 20px;
+    margin-bottom: 72px;
+    min-width: 335px;
+    min-height: 456px;
+    background-color: gray;
+    border-radius: 15px;
+}
+@media screen and (min-width: 768px) {
+    .hitm-block {
+        padding: 32px 102px 32px 32px;
+        margin-bottom: 100px;
+        min-width: 614px;
+        min-height: 356px;
+    }
+}
+
+.hitm-title-small {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--clr-txt-primery);
+    margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+    .hitm-title-small {
+       margin-bottom: 28px;
+       width: 350px;
+       height: 48px;       
+    }
+}
+
+.hitm-item:not(:last-child) {
+    margin-bottom: 18px;
+}
+
+.hitm-item {
+    max-width: 291px;
+    list-style-type: disc;
+}
+
+.hitm-item-txt {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: var(--clr-txt-primery);
+}
+@media screen and (min-width: 768px) {
+    .hitm-item-txt {
+       width: 464px;    
+    }
+}
+
+@media screen and (min-width: 1200px) {
+.hitm-desk {
+    display: flex;
+    align-items: flex-start;
+  }
+.hitm-block {
+    padding: 32px 32px 34px 32px;
+    margin-left: 20px;
+    margin-right: 32px;
+    margin-bottom: 128px;
+    min-width: 516px;
+    min-height: 400px;
+}
+}
