@@ -1,4 +1,9 @@
 .hero {
+  padding-bottom: 72px;
+}
+.hero-bg {
+  display: flex;
+  flex-direction: column;
   max-width: 335px;
   height: 620px;
   margin: 0 auto;
@@ -8,7 +13,6 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 72px;
   border-radius: 30px;
 }
 @media (min-device-pixel-ratio: 2),
@@ -41,8 +45,13 @@
     }
   } */
 .container {
-  display: flex;
 }
+.hero-container {
+  margin-top: auto;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
 .hero-wrap {
   padding-bottom: auto;
 }
