@@ -1,14 +1,64 @@
+.hero {
+  max-width: 335px;
+  height: 620px;
+  margin: 0 auto;
+  background-color: #1e1823;
+  background-image: var(--l-gradient),
+    url(/src/images/chocolate-covered-cocoa-powder-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 72px;
+  border-radius: 30px;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--l-gradient),
+      url(/src/images/chocolate-covered-cocoa-powder-mobile@2x.jpg);
+  }
+}
+/* .hero {
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--second-bg-dark-color);
+    background-image: var(--l-gradient), url(../images/hero-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--l-gradient), url(../images/hero-mob-2x.jpg);
+    }
+  } */
 .container {
+  display: flex;
 }
 .hero-wrap {
+  padding-bottom: auto;
 }
-.hero-title {
-}
-.visually-hidden {
-}
+
 .hero-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  color: var(--clr-txt-white);
+  margin-bottom: 32px;
 }
 .hero-btn-list {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 32px;
 }
 .hero-btn-item {
 }
@@ -19,10 +69,28 @@
 .hero-btn-made {
 }
 .hero-scrol {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 .hero-text-scrol {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  color: var(--clr-txt-white);
 }
 .hero-btn-scrol {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
 }
-.subscribe-icon {
+.hero-icon-scrol {
+  /* fill: var(--clr-orange); */
+  stroke: var(--clr-orange);
 }
