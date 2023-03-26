@@ -1,0 +1,60 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+  }
+  
+  .nav-list {
+    display: block;
+    list-style-type: none;
+    font-style: normal;
+    display: flex;
+  }
+  
+  .logo-first {
+    font-family: "Montserrat";
+    font-style: italic;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .logo-second {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #111111;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-list {
+    margin-left: 188px;
+  }
+  
+  .nav-list .item:not(:last-child) {
+    margin-right: 24px;
+  }
+  
+  .nav-list.item {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #111111;
+    text-decoration: none;
+    
+  }
+  
+  
+  
