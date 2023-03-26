@@ -1,12 +1,17 @@
 /* змінні */
 :root {
-    --clr-txt-primery: #111111;
-    --clr-txt-second: rgba(17, 17, 17, 0.7);
-    --clr-txt-white: #FFFFFF;
-    --clr-txt-white-second: rgba(255, 255, 255, 0.7);
-    --clr-orange: #FD9222;
-    --clr-dark-violet: #1E1823;
-    --clr-hover-cream:  #FCF1E0;
-    --clr-sliders: rgba(17, 17, 17, 0.1);
-    --time-transition: 250ms;
+  --clr-txt-primery: #111111;
+  --clr-txt-second: rgba(17, 17, 17, 0.7);
+  --clr-txt-white: #ffffff;
+  --clr-txt-white-second: rgba(255, 255, 255, 0.7);
+  --clr-orange: #fd9222;
+  --clr-dark-violet: #1e1823;
+  --clr-hover-cream: #fcf1e0;
+  --clr-sliders: rgba(17, 17, 17, 0.1);
+  --time-transition: 250ms;
+  --l-gradient: linear-gradient(
+    180deg,
+    rgba(17, 17, 17, 0) 0%,
+    rgba(17, 17, 17, 0.4) 100%
+  );
 }
