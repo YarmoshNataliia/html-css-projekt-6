@@ -2,7 +2,16 @@
 .sect-Uni-comp {
   margin-bottom: 72px;
 }
-
+@media screen and (min-width: 768px){
+.sect-Uni-comp {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (min-width: 1200px){
+.sect-Uni-comp {
+    margin-bottom: 128px;
+  }
+}
 /* Unique components cards */
 .sect-uni-comp-title {
   width: 100%;
@@ -118,7 +127,7 @@
 @media screen and (min-width: 768px) {
   .sect-uni-comp-link {
     flex-wrap: wrap;
-    flex-basis: calc((100% - 64px) / 2);
+    flex-basis: calc((100% - 32px) / 2);
   }
 
   .sect-uni-comp-link:nth-last-child(2) {
