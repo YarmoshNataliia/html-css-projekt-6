@@ -1,0 +1,9 @@
+/* базові стилі body */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+/* проставити тут контейнери */
