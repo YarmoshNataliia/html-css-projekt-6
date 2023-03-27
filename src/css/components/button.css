@@ -5,13 +5,15 @@
   border-color: transparent;
   padding: 12px 28px;
   cursor: pointer;
+  font: inherit;
 }
 @media (min-width: 375px) {
   .main-btn {
     padding: 14px 40px;
   }
 }
-.main-btn:hover {
+.main-btn:hover,
+.main-btn:focus {
   color: #fd9222;
   background-color: #fcf1e0;
 }
@@ -29,7 +31,8 @@
     padding: 14px 40px;
   }
 }
-.secondary-btn:hover {
+.secondary-btn:hover,
+.secondary-btn:focus {
   color: #fd9222;
   border: 1px solid #fd9222;
 }
@@ -47,7 +50,8 @@
     padding: 14px 40px;
   }
 }
-.inverted-btn:hover {
+.inverted-btn:hover,
+.inverted-btn:focus {
   background-color: #fd9222;
   color: #fff;
 }
