@@ -3,6 +3,8 @@
     padding-bottom: 14px;
     padding-left: 20px;
     padding-right: 20px;
+    align-items: center;
+    display: flex;
   }
   
   @media (min-width: 768px) and (max-width: 1199px) {
@@ -17,8 +19,6 @@
       padding-bottom: 32px;
       padding-left: 32px;
       padding-right: 32px;
-      align-items: center;
-      justify-content: space-between;
     }
   }
 
@@ -84,32 +84,33 @@
   .socials-header {
     display: flex;
     gap: 18px;
-    justify-content: center;
+    justify-content: flex-end;
     flex-direction: row;
+    margin: 0;
   }
   
-  .socials-header.item {
+  .header-socials-item {
     width: 24px;
     height: 24px;
   }
 
-  .socials-header.link {
+  .header-socials-link {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--clr-txt-primery);
+    stroke: var(--clr-txt-white);
     background-color: transparent;
   }
 
-  .socials-header.link:hover,
-  .socials-header.link:focus {
-  color: var(--clr-orange);
+  .header-socials-link:hover,
+  .header-socials-link:focus {
+  stroke: var(--clr-orange);
   }
 
-  .socials-header.icon {
-    fill: currentColor;
+  .header-socials-icon {
+    stroke: var(--clr-txt-primery);
   }
 
   @media (min-width: 375px) and (max-width: 1199px) {
@@ -141,13 +142,14 @@
   .mobile-menu {
     position: relative;
     position: fixed;
+    padding: 136px 500px 50px 46px;
     top: 0;
     left: 0;
     bottom: 0;
     width: 100%;
     color: var(--clr-txt-white);
     background-color: var(--clr-dark-violet);
-    transform: translateX(50%);
+    transform: translateX(100%);
     transition: transform 0.8s;
   }
 
@@ -157,10 +159,27 @@
     }
   }
 
-  .mobile-list.item {
+  .mobile-menu.is-open {
+    transform: translateX(0);
+  }
+
+  .mobile-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    cursor: pointer;
   }
