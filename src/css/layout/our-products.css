@@ -36,6 +36,7 @@
 }
 
 .our-products-goods {
+  min-width: 335px;
   text-decoration: none;
   list-style-type: none;
   background: #ffffff;
@@ -46,6 +47,7 @@
 
 @media (min-width: 768px) {
   .our-products-goods {
+    min-width: 270px;
     padding: 32px 20px;
   }
 }
