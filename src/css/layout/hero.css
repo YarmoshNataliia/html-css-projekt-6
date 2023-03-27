@@ -15,6 +15,15 @@
   border-radius: 30px;
   position: relative;
 }
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-bg {
+    background-image: var(--l-gradient),
+      url(../images/chocolate-covered-cocoa-powder-mobile@2x.jpg);
+  }
+}
 .container {
 }
 .hero-container {
@@ -56,7 +65,7 @@
 .list {
 }
 
-/* .main-btn {
+.hero-btn-buy {
   border-radius: 100px;
   border: 0;
   color: #fff;
@@ -68,10 +77,104 @@
   line-height: 1.2;
   cursor: pointer;
 }
-.main-btn:is(:hover, :focus) {
+.hero-btn-buy:is(:hover, :focus) {
   background-color: #fcf1e0;
   color: #fd9222;
-} */
+}
+.hero-btn-made {
+}
+.hero-scrol {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.hero-text-scrol {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  color: var(--clr-txt-white);
+}
+
+.hero-btn-scrol {
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.hero-icon-scrol {
+  fill: var(--clr-orange);
+}
+
+.hero-btn-scrol:is(:hover, :focus) {
+  fill: #ffffff;
+  background-color: #fd9222;
+}
+.hero-text-scrol:is(:hover, :focus) {
+  color: #fd9222;
+}
+/* ADAPTIVE-tablet */
+@media (min-width: 768px) {
+  .hero-btn-buy {
+    padding: 14px 40px;
+  }
+  .hero-btn-made {
+    padding: 14px 40px;
+  }
+  .hero-bg {
+    height: 890px;
+    background-image: var(--l-gradient),
+      url(../images/chocolate-covered-cocoa-powder-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-bg {
+      background-image: var(--l-gradient),
+        url(../images/chocolate-covered-cocoa-powder-tablet@2x.jpg);
+    }
+  }
+  .hero-container {
+    margin-top: auto;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  .hero-wrap {
+    max-width: 624px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    display: flex;
+    align-items: end;
+  }
+  .hero-text {
+    font-size: 28px;
+    line-height: 1.21;
+    width: 500px;
+  }
+  .hero-btn-list {
+    margin-bottom: 0px;
+  }
+  .hero-scrol {
+    gap: 14px;
+  }
+  .hero-text-scrol {
+    font-size: 14px;
+    line-height: 1.29;
+    width: 78px;
+  }
+  .hero-btn-scrol {
+    width: 38px;
+    height: 38px;
+  }
+}
 /* от Дими */
 /* .main-btn {
   color: #fff;
@@ -90,7 +193,7 @@
   padding: 12px 28px;
   font-weight: 600;
 } */
-/* .secondary-btn {
+.hero-btn-made {
   border-radius: 100px;
   border: 1px solid #ffffff;
   color: #ffffff;
@@ -102,35 +205,32 @@
   line-height: 1.2;
   cursor: pointer;
 }
-.secondary-btn:is(:hover, :focus) {
+.hero-btn-made:is(:hover, :focus) {
   border: 1px solid #fd9222;
   color: #fd9222;
-} */
+}
 
-.hero-btn-made {
+@media (min-width: 1200px) {
+  .hero-bg {
+    height: 600px;
+    background-image: var(--l-gradient),
+      url(../images/chocolate-covered-cocoa-powder-desktop.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-bg {
+      background-image: var(--l-gradient),
+        url(../images/chocolate-covered-cocoa-powder-desktop@2x.jpg);
+    }
+  }
+  .hero-wrap {
+    max-width: 1056px;
+  }
 }
-.hero-scrol {
-  display: flex;
-  gap: 12px;
-  align-items: center;
-}
-.hero-text-scrol {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.03em;
-  color: var(--clr-txt-white);
-}
-.hero-btn-scrol {
-  width: 28px;
-  height: 28px;
-  border: 0;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ffffff;
-}
-.hero-icon-scrol {
-  fill: var(--clr-orange);
-}
+
+/* .hero-icon-scrol:is(:hover, :focus) .hero-btn-scrol {
+  fill: #ffffff;
+  background-color: #fd9222;
+} */
