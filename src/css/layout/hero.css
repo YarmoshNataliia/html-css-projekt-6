@@ -209,6 +209,7 @@
   border: 1px solid #fd9222;
   color: #fd9222;
 }
+/* Adaptiv-desktop */
 
 @media (min-width: 1200px) {
   .hero-bg {
