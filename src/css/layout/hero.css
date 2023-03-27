@@ -79,14 +79,16 @@
   border-radius: 100px;
   border-color: transparent;
   padding: 12px 28px;
-} */
-/* .secondary-btn {
+  font-weight: 600;
+}
+.secondary-btn {
   margin: 10px 10px;
   color: #fff;
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0);
   border: 1px solid #ffffff;
   padding: 12px 28px;
+  font-weight: 600;
 } */
 /* .secondary-btn {
   border-radius: 100px;
