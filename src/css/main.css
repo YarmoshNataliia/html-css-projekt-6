@@ -15,7 +15,7 @@
 
 /* component */
 @import url('./components/container.css');
-
+@import url('./components/button.css');
 /* layout */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
