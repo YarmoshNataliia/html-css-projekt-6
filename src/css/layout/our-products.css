@@ -6,7 +6,7 @@
   text-align: center;
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: -0.03em;
   line-height: 1.1666;
 }
 
@@ -80,7 +80,7 @@
   text-transform: uppercase;
   color: var(--clr-txt-primery);
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   line-height: 1.3333;
   font-weight: 600;
   margin-bottom: 2px;
@@ -90,7 +90,7 @@
   color: var(--clr-txt-second);
   font-size: 12px;
   font-weight: 400;
-  letter-spacing: 0.02em;
+  letter-spacing: -0.02em;
   line-height: 1.1666;
   margin-bottom: 18px;
 }
@@ -101,7 +101,7 @@
   font-size: 14px;
   font-weight: 600;
   color: var(--clr-txt-primery);
-  line-height: 1.2143;
+  line-height: 1.2143;  
   cursor: pointer;
   background-color: #fafafa;
   border: 1px solid var(--clr-sliders);
