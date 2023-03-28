@@ -5,9 +5,9 @@
 }
 
 @media screen and (max-width: 375px) {
-    .footer {
-        padding: 32px 0px;
-    }
+  .footer {
+    padding: 32px 0px;
+  }
 }
 
 .footer-container {
@@ -61,16 +61,16 @@
 }
 
 @media screen and (min-width: 768px) {
-    .wrapper-contacts {
-        gap: 50px;
-    }
+  .wrapper-contacts {
+    gap: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
-    .wrapper-contacts {
-        gap: 65px;
-    }
-}     
+  .wrapper-contacts {
+    gap: 65px;
+  }
+}
 
 .wrapper-contacts-text {
   display: flex;
@@ -106,8 +106,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
-  stroke: var(--clr-txt-white);
-  fill: var(--clr-dark-violet);
+  fill: var(--clr-txt-white);
 }
 
 .social-link:hover,
