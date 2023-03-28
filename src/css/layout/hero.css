@@ -86,7 +86,7 @@
   gap: 12px;
   align-items: center;
 }
-.hero-text-scrol {
+.hero-link-scrol {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.17;
@@ -108,13 +108,30 @@
   fill: var(--clr-orange);
 }
 
-.hero-btn-scrol:is(:hover, :focus) {
+/* .hero-btn-scrol:is(:hover, :focus) {
   fill: #ffffff;
   background-color: #fd9222;
-}
-.hero-text-scrol:is(:hover, :focus) {
+} */
+/* .hero-link-scrol:is(:hover, :focus) {
   color: #fd9222;
+} */
+.hero-icon-container {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #fd9222;
 }
+
+.hero-scrol:is(:hover, :focus) {
+  color: #fd9222;
+  background-color: #fd9222;
+  fill: #ffffff;
+}
+
 /* ADAPTIVE-tablet */
 @media (min-width: 768px) {
   .hero-btn-buy {
@@ -163,7 +180,7 @@
   .hero-scrol {
     gap: 14px;
   }
-  .hero-text-scrol {
+  .hero-link-scrol {
     font-size: 14px;
     line-height: 1.29;
     width: 78px;
@@ -207,6 +224,11 @@
   border: 1px solid #fd9222;
   color: #fd9222;
   transition: 0.7s;
+}
+.hero-link-scrol {
+  font-size: 14px;
+  line-height: 1.29;
+  width: 78px;
 }
 /* Adaptiv-desktop */
 
