@@ -103,6 +103,8 @@
     width: 44px;
     height: 44px;
     background-image: url('../images/play.svg');
+    border: 1px solid var(--clr-txt-white);
+    border-radius: 50%;
 }
 .hitm-thumb::before:hover,
 .hitm-thumb::before:focus,
