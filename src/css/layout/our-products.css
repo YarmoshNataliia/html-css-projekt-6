@@ -60,9 +60,9 @@
 }
 
 @media (max-width: 767px) {
-.our-prod-goods:not(:first-child) {
-  visibility: hidden;
-}
+  .our-prod-goods:not(:first-child) {
+    visibility: hidden;
+  }
 }
 
 .our-prod-goods img {
@@ -101,7 +101,7 @@
   font-size: 14px;
   font-weight: 600;
   color: var(--clr-txt-primery);
-  line-height: 1.2143;  
+  line-height: 1.2143;
   cursor: pointer;
   background-color: #fafafa;
   border: 1px solid var(--clr-sliders);
@@ -125,10 +125,11 @@
   border: none;
 }
 
-.our-prod-slider-btn:hover{
+.our-prod-slider-btn:hover,
+.our-prod-slider-btn:focus {
   width: 28px;
   height: 13px;
   border-radius: 13px;
   border: none;
-  background-color:  var(--clr-orange);
+  background-color: var(--clr-orange);
 }
