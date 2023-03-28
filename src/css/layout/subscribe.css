@@ -1,7 +1,7 @@
 .subscribe-section {
   text-align: center;
-  background-color:  #1e1823;
-  background-image: var(--l-gradient), url(../../images/subcribe-mobile.jpg) ;
+  background-color: #1e1823;
+  background-image: var(--l-gradient), url(../../images/subcribe-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,11 +16,12 @@
   }
 }
 
-@media (min-width:768px){
+@media (min-width: 768px) {
   .subscribe-section {
-      background-image:  var(--l-gradient), url(../../images/subcribe-tablet.jpg) center no-repeat;
-    }
-    @media (min-device-pixel-ratio: 2),
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -30,11 +31,12 @@
     }
   }
 }
-@media (min-width:1200px){
+@media (min-width: 1200px) {
   .subscribe-section {
-      background-image:  var(--l-gradient), url(../../images/subcribe-desktop.jpg) center no-repeat;
-    }
-    @media (min-device-pixel-ratio: 2),
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-desktop.jpg) ;
+  }
+  @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -49,8 +51,6 @@
   padding-bottom: 72px;
   width: 100%;
 }
-
-
 
 .subscribe-title {
   margin: 0 auto;
@@ -110,4 +110,3 @@
   color: #fd9222;
   background-color: #fcf1e0;
 }
-
