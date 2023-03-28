@@ -18,7 +18,7 @@
 
 @media (min-width:768px){
   .subscribe-section {
-      background-image: url(../../images/subcribe-tablet.jpg) center no-repeat;
+      background-image:  var(--l-gradient), url(../../images/subcribe-tablet.jpg) center no-repeat;
     }
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -32,7 +32,7 @@
 }
 @media (min-width:1200px){
   .subscribe-section {
-      background-image: url(../../images/subcribe-desktop.jpg) center no-repeat;
+      background-image:  var(--l-gradient), url(../../images/subcribe-desktop.jpg) center no-repeat;
     }
     @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
