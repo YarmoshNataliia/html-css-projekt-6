@@ -34,6 +34,11 @@
   margin-bottom: 20px;
   display: flex;
   gap: 18px;
+  position: relative;
+  /* transform: translateX(-150%); */
+}
+.our-prod-catalogue-wrapper {
+  overflow: scroll;
 }
 
 @media (min-width: 769px) {
