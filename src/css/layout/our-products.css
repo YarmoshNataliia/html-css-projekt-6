@@ -48,7 +48,7 @@
 }
 
 .our-prod-goods {
-  min-width: 335px;
+  max-width: 335px;
   text-decoration: none;
   list-style-type: none;
   background: #ffffff;
