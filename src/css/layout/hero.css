@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .hero {
   padding-bottom: 72px;
 }
@@ -108,13 +111,6 @@
   fill: var(--clr-orange);
 }
 
-/* .hero-btn-scrol:is(:hover, :focus) {
-  fill: #ffffff;
-  background-color: #fd9222;
-} */
-/* .hero-link-scrol:is(:hover, :focus) {
-  color: #fd9222;
-} */
 .hero-icon-container {
   width: 28px;
   height: 28px;
@@ -126,10 +122,24 @@
   fill: #fd9222;
 }
 
-.hero-scrol:is(:hover, :focus) {
+/* .hero-scrol:is(:hover, :focus) {
   color: #fd9222;
   background-color: #fd9222;
   fill: #ffffff;
+} */
+.hero-scrol:hover .link {
+  color: #fd9222;
+  transition: 0.7s;
+}
+
+.hero-scrol:hover .hero-icon-container {
+  background-color: #fd9222;
+  transition: 0.7s;
+}
+
+.hero-scrol:hover .icon {
+  fill: white;
+  transition: 0.7s;
 }
 
 /* ADAPTIVE-tablet */
@@ -190,24 +200,7 @@
     height: 38px;
   }
 }
-/* от Дими */
-/* .main-btn {
-  color: #fff;
-  background-color: #fd9222;
-  border-radius: 100px;
-  border-color: transparent;
-  padding: 12px 28px;
-  font-weight: 600;
-}
-.secondary-btn {
-  margin: 10px 10px;
-  color: #fff;
-  border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid #ffffff;
-  padding: 12px 28px;
-  font-weight: 600;
-} */
+
 .hero-btn-made {
   border-radius: 100px;
   border: 1px solid #ffffff;
@@ -225,11 +218,7 @@
   color: #fd9222;
   transition: 0.7s;
 }
-.hero-link-scrol {
-  font-size: 14px;
-  line-height: 1.29;
-  width: 78px;
-}
+
 /* Adaptiv-desktop */
 
 @media (min-width: 1200px) {
