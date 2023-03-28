@@ -59,16 +59,32 @@
 }
 
 .hitm-item {
-    max-width: 291px;
-    list-style-type: disc;
-}
+   max-width: 291px;
 
+   
+}
 .hitm-item-txt {
+    position: relative;
+    display: inline-block;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.28;
     letter-spacing: -0.02em;
     color: var(--clr-txt-primery);
+    margin-left: 16px;
+   
+}
+.hitm-item-txt::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -16px;
+    width: 8px;
+    height: 8px;
+    background-color: #4C4C4C;
+    border: 1px solid #ECEDED;
+    border-radius: 50%;
+   
 }
 
 .hitm-thumb {
@@ -156,3 +172,4 @@
     height: 100%;
     border-radius: 15px;
 }
+
