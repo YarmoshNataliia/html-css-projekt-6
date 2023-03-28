@@ -37,9 +37,6 @@
   position: relative;
   /* transform: translateX(-150%); */
 }
-.our-prod-catalogue-wrapper {
-  overflow: scroll;
-}
 
 @media (min-width: 769px) {
   .our-prod-catalogue {
@@ -56,7 +53,11 @@
   border-radius: 15px;
   padding: 32px 52px 32px 53px;
 }
-
+@media (max-width: 1199px) {
+  .our-prod-catalogue-wrapper {
+    overflow: scroll;
+  }
+}
 @media (min-width: 768px) {
   .our-prod-goods {
     min-width: 270px;
