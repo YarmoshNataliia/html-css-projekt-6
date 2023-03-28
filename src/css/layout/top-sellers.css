@@ -1,0 +1,46 @@
+.top-sellers-title {
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  line-height: 1.1666;
+}
+
+.top-sellers-title-first {
+  color: var(--clr-txt-primery);
+}
+.top-sellers-title-second {
+  color: var(--clr-orange);
+}
+
+@media (max-width: 727px) {
+  .top-sellers-wrapper-pc {
+    display: none;
+  }
+}
+
+@media (min-width: 728px) {
+  .top-sellers-wrapper-mobile {
+    display: none;
+  }
+}
+.top-seller-buy-now-btn {
+  display: inline-block;
+  text-align: center;
+}
+.top-sellers-pic {
+  border-radius: 14px;
+}
+
+.top-sellers-pic-list li img.top-sellers-pic {
+  margin-bottom: 20px;
+}
+.top-sellers-wrapper-mobile .top-sellers-pic-list li:first-child {
+  margin-bottom: 32px;
+}
+.top-sellers-wrapper-mobile .top-sellers-pic-list li:last-child {
+  display: inline-block;
+  text-align: center;
+}
