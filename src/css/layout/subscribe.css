@@ -1,0 +1,112 @@
+.subscribe-section {
+  text-align: center;
+  background-color: #1e1823;
+  background-image: var(--l-gradient), url(../../images/subcribe-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe-section {
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-mobile@2x.jpg);
+  }
+}
+
+@media (min-width: 768px) {
+  .subscribe-section {
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-tablet.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: var(--l-gradient),
+        url(../../images/subcribe-tablet@2x.jpg);
+    }
+  }
+}
+@media (min-width: 1200px) {
+  .subscribe-section {
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-desktop.jpg) ;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: var(--l-gradient),
+        url(../../images/subcribe-desktop@2x.jpg);
+    }
+  }
+}
+.subscribe {
+  padding-top: 72px;
+  padding-bottom: 72px;
+  width: 100%;
+}
+
+.subscribe-title {
+  margin: 0 auto;
+  width: 291px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: 'Montserrat';
+  letter-spacing: -0.03em;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  .subscribe-title {
+    width: 378px;
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+.subscribe-text {
+  margin: 0 auto;
+  max-width: 100%;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+  font-family: 'Montserrat';
+  letter-spacing: -0.02em;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  .subscribe-text {
+    width: 467px;
+  }
+}
+.subscribe-btn {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.21;
+  font-family: 'Montserrat';
+  width: 128px;
+  color: #fff;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border-color: transparent;
+  padding: 12px 28px;
+}
+@media (min-width: 768px) {
+  .subscribe-btn {
+    font-size: 18px;
+    line-height: 1.22;
+    width: 172px;
+    padding: 14px 40px;
+  }
+}
+.subscribe-btn:hover {
+  color: #fd9222;
+  background-color: #fcf1e0;
+}
