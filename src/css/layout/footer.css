@@ -1,7 +1,7 @@
 .footer {
   background-color: var(--clr-dark-violet);
   color: var(--clr-txt-white);
-  padding: 50px 32px;
+  padding: 50px 0px;
 }
 
 @media screen and (max-width: 375px) {
@@ -59,6 +59,18 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media screen and (min-width: 768px) {
+    .wrapper-contacts {
+        gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper-contacts {
+        gap: 65px;
+    }
+}     
 
 .wrapper-contacts-text {
   display: flex;
