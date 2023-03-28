@@ -24,7 +24,7 @@
   width: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wrapper {
     flex-direction: column;
   }
@@ -39,7 +39,7 @@
   margin-bottom: 32px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .wrapper-slogan {
     font-size: 24px;
   }
@@ -110,7 +110,7 @@
   fill: inherit;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .social-icon {
     width: 22px;
     height: 22px;
@@ -122,7 +122,7 @@
   gap: 24px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .refs {
     flex-direction: column;
     gap: 18px;
