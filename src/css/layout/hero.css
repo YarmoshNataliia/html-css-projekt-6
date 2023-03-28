@@ -18,6 +18,7 @@ html {
   border-radius: 30px;
   position: relative;
 }
+
 @media (min-device-pixel-ratio: 2),
   (-webkit-min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -27,8 +28,7 @@ html {
       url(../images/chocolate-covered-cocoa-powder-mobile@2x.jpg);
   }
 }
-.container {
-}
+
 .hero-container {
   margin-top: auto;
   padding-bottom: 20px;
@@ -36,9 +36,9 @@ html {
   padding-right: auto;
   width: 100%;
 }
-.df {
+/* .df {
   display: flex;
-}
+} */
 
 .hero-wrap {
   position: absolute;
@@ -89,6 +89,7 @@ html {
   gap: 12px;
   align-items: center;
 }
+
 .hero-link-scrol {
   font-weight: 500;
   font-size: 12px;
