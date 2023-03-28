@@ -1,0 +1,205 @@
+<div class="top-sel-back-drop" data-modal>
+  <div class="top-sel-modal">
+    <button class="modal-btn-close" type="button" data-modal-close>
+      <svg class="top-sel-modal-btn-svg" width="24" height="24">
+        <use href="../images/icons.svg#icon-modal-btnx-close"></use>
+      </svg>
+    </button>
+    <h2 class="top-sel-form-title">
+      <span class="top-sel-form-title-span">buy</span> now
+    </h2>
+    <ul class="top-sel-card-list">
+      <li class="top-sel-card-link">
+        <picture>
+          <source
+            srcset="../images/buy-now-1.png 1x, ../images/buy-now-1@2x.png 2x"
+            type="image/png"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/buy-now-mob-1.png    1x,
+              ../images/buy-now-mob-1@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="top-sel-card-img"
+            src="../images/buy-now-mob-1.png"
+            alt="buy-now-1"
+          />
+        </picture>
+
+        <div class="top-sel-card-wraper">
+          <p class="top-sel-card-wraper-inner">100 g</p>
+        </div>
+      </li>
+      <li class="top-sel-card-link">
+        <picture>
+          <source
+            srcset="../images/buy-now-2.png 1x, ../images/buy-now-2@2x.png 2x"
+            type="image/png"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/buy-now-mob-2.png    1x,
+              ../images/buy-now-mob-2@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="top-sel-card-img"
+            src="../images/buy-now-mob-2.png"
+            alt="buy-now-2"
+          />
+        </picture>
+        <div class="top-sel-card-wraper">
+          <p class="top-sel-card-wraper-inner">200 g</p>
+        </div>
+      </li>
+      <li class="top-sel-card-link">
+        <picture>
+          <source
+            srcset="../images/buy-now-3.png 1x, ../images/buy-now-3@2x.png 2x"
+            type="image/png"
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ../images/buy-now-mob-3.png    1x,
+              ../images/buy-now-mob-3@2x.png 2x
+            "
+            type="image/png"
+          />
+
+          <img
+            class="top-sel-card-img"
+            src="../images/buy-now-mob-3.png"
+            alt="buy-now-3"
+          />
+        </picture>
+        <div class="top-sel-card-wraper">
+          <p class="top-sel-card-wraper-inner">300 g</p>
+        </div>
+      </li>
+    </ul>
+
+    <form class="top-sel-form" name="top-sel-form">
+      <label for="top-sel-surname"></label>
+      <label class="top-sel-form-label" for="top-sel-name"
+        >Personal information</label
+      >
+
+      <div class="top-sel-form-wraper">
+        <!-- Name -->
+        <input
+          class="top-sel-form-input top-sel-spase"
+          id="top-sel-name"
+          type="text"
+          name="name"
+          placeholder="name"
+          autofocus
+        />
+        <!-- Surname -->
+        <input
+          class="top-sel-form-input"
+          id="top-sel-surname"
+          type="text"
+          name="surname"
+          placeholder="surname"
+        />
+      </div>
+      <!-- Email -->
+      <label class="top-sel-form-label" for="top-sel-email">Email</label>
+      <input
+        class="top-sel-form-input"
+        id="top-sel-email"
+        type="email"
+        name="email"
+        placeholder="enter your email"
+      />
+      <!-- Phone number -->
+      <label class="top-sel-form-label" for="top-sel-ph-num"
+        >Phone number</label
+      >
+      <div class="top-sel-form-label-svg">
+        <div class="top-sel-form-phone-svg-wraper">
+          <svg class="top-sel-form-phone-svg">
+            <use href="../images/icons.svg#icon-modal-btn-prapor"></use>
+          </svg>
+          <span class="top-sel-form-phone-reg">+380</span>
+        </div>
+
+        <input
+          class="top-sel-form-input top-sel-form-inp-left-sp"
+          id="top-sel-ph-num"
+          type="tel"
+          name="phone"
+          placeholder="phone number"
+        />
+      </div>
+      <!-- Card number -->
+      <label class="top-sel-form-label" for="top-sel-card-num"
+        >Card number</label
+      >
+      <div class="top-sel-form-label-svg-card">
+        <svg class="top-sel-form-phone-svg-card">
+          <use href="../images/icons.svg#icon-modal-btn-ms-card"></use>
+        </svg>
+        <input
+          class="top-sel-form-input top-sel-form-inp-left-ms-card"
+          id="top-sel-card-num"
+          type="number"
+          name="card"
+          placeholder="card number"
+        />
+      </div>
+      <!-- Comment -->
+      <label class="top-sel-form-label" for="top-sel-Comment">Comment</label>
+      <textarea
+        class="top-sel-form-input top-sel-text-sp"
+        id="top-sel-Comment"
+        name="Comment"
+        placeholder="enter text"
+      ></textarea>
+      <button class="main-btn top-sel-form-btn" type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+<!-- Top seller PopUp -->
+<div class="top-sel-popup">
+  <div class="top-sel-popup-wraper">
+    <h3 class="top-sel-popup-title">thank you!</h3>
+    <p class="top-sel-popup-text">
+      We are glad that you ordered our chocolate and we are giving you a 20%
+      discount on all our products.
+    </p>
+  </div>
+  <picture>
+    <source
+      srcset="../images/pop-up.png 1x, ../images/pop-up@2x.png 2x"
+      type="image/png"
+      media="(min-width: 768px)"
+    />
+    <source
+      srcset="../images/pop-up-mobile.png 1x, ../images/pop-up-mobile@2x.png 2x"
+      type="image/png"
+    />
+
+    <img
+      class="top-sel-popup-img"
+      src="../images/pop-up-mobile.png"
+      alt="chocolate"
+    />
+  </picture>
+
+  <button class="top-sel-popup-btn" type="submit">
+    <svg class="top-sel-popup-svg">
+      <use href="../images/icons.svg#icon-modal-btnx-close"></use>
+    </svg>
+  </button>
+</div>
