@@ -1,28 +1,56 @@
 .subscribe-section {
   text-align: center;
+  background-color:  #1e1823;
+  background-image: var(--l-gradient), url(../../images/subcribe-mobile.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe-section {
+    background-image: var(--l-gradient),
+      url(../../images/subcribe-mobile@2x.jpg);
+  }
+}
+
+@media (min-width:768px){
+  .subscribe-section {
+      background-image: url(../../images/subcribe-tablet.jpg) center no-repeat;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: var(--l-gradient),
+        url(../../images/subcribe-tablet@2x.jpg);
+    }
+  }
+}
+@media (min-width:1200px){
+  .subscribe-section {
+      background-image: url(../../images/subcribe-desktop.jpg) center no-repeat;
+    }
+    @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .subscribe-section {
+      background-image: var(--l-gradient),
+        url(../../images/subcribe-desktop@2x.jpg);
+    }
+  }
 }
 .subscribe {
   padding-top: 72px;
   padding-bottom: 72px;
-  background-color: #1e1823;
-  background: url(../../images/subcribe-mobile.jpg) center no-repeat;
-  background-size: cover;
   width: 100%;
-  background-size: cover;
 }
 
-@media (min-width:768px){
-    .subscribe {
-        background: url(../../images/subcribe-tablet.jpg) center no-repeat;
-      }
-     
-}
-@media (min-width:1200px){
-    .subscribe {
-        background: url(../../images/subcribe-desktop.jpg) center no-repeat;
-      }
-    
-}
+
 
 .subscribe-title {
   margin: 0 auto;
@@ -59,7 +87,7 @@
   }
 }
 .subscribe-btn {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
   font-family: 'Montserrat';
@@ -72,7 +100,6 @@
 }
 @media (min-width: 768px) {
   .subscribe-btn {
-    font-weight: 600;
     font-size: 18px;
     line-height: 1.22;
     width: 172px;
@@ -83,3 +110,4 @@
   color: #fd9222;
   background-color: #fcf1e0;
 }
+
