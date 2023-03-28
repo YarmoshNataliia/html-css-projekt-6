@@ -80,7 +80,7 @@ html {
 .hero-btn-buy:is(:hover, :focus) {
   background-color: #fcf1e0;
   color: #fd9222;
-  transition: 0.7s;
+  transition: 250ms;
 }
 .hero-btn-made {
 }
@@ -124,17 +124,17 @@ html {
 
 .hero-scrol:hover .link {
   color: #fd9222;
-  transition: 0.7s;
+  transition: 250ms;
 }
 
 .hero-scrol:hover .hero-icon-container {
   background-color: #fd9222;
-  transition: 0.7s;
+  transition: 250ms;
 }
 
 .hero-scrol:hover .icon {
   fill: white;
-  transition: 0.7s;
+  transition: 250ms;
 }
 
 /* ADAPTIVE-tablet */
@@ -219,7 +219,7 @@ html {
 .hero-btn-made:is(:hover, :focus) {
   border: 1px solid #fd9222;
   color: #fd9222;
-  transition: 0.7s;
+  transition: 250ms;
 }
 
 /* Adaptiv-desktop */
