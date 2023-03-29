@@ -1,0 +1,63 @@
+<div class="modal-review-backdrop">
+  <div class="modal-review">
+    <button type="button" class="modal-review-close-btn">
+      <svg class="modal-review-close-btn-icon" width="24" height="24">
+        <use href="../images/icons.svg#icon-x-close"></use>
+      </svg>
+    </button>
+    <p class="action-user">
+      leave a review about&nbsp;<span class="action-user-wrapper"
+        >our chocolate</span
+      >
+    </p>
+    <form class="modal-review-form">
+      <label class="modal-review-form-field">
+        <input
+          placeholder="Name"
+          type="text"
+          name="user-name"
+          class="modal-review-form-input"
+          required
+          pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
+          minlength="2"
+        />
+      </label>
+      <label class="modal-review-form-field">
+        <input
+          placeholder="Enter your email"
+          type="email"
+          name="user-email"
+          class="modal-review-form-input"
+          required
+          pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+          title="user@mail.com"
+        />
+      </label>
+      <label class="modal-review-form-field">
+        <span class="modal-review-form-input-wrapper">
+          <input
+            placeholder="Phone number"
+            type="tel"
+            name="user-phone"
+            class="modal-review-form-input-mobile"
+            required
+            pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{3}"
+            title="**-**-**-***"
+          />
+          <svg class="modal-review-form-input-icon">
+            <use href="../images/icons.svg#icon-flag"></use>
+          </svg>
+          <span class="mobile-code">+380</span>
+        </span>
+      </label>
+      <label class="modal-review-form-field">
+        <textarea
+          name="user-comment"
+          class="modal-review-form-comment"
+          placeholder="Enter text"
+        ></textarea>
+      </label>
+      <button type="submit" class="modal-review-form-submit">Send</button>
+    </form>
+  </div>
+</div>
