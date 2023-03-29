@@ -1,0 +1,141 @@
+/* MODAL WINDOW */
+.modal-review-backdrop {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-review {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 311px;
+  min-height: 471px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+/* /MODAL WINDOW */
+
+/* MODAL FORM */
+.action-user {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.action-user-wrapper {
+  color: var(--clr-orange);
+}
+
+.modal-review-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-review-form-input {
+  width: 100%;
+  height: 45px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  padding-left: 18px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.modal-review-form-input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-review-form-field {
+  margin-bottom: 14px;
+}
+
+.modal-review-form-comment {
+  display: block;
+  resize: none;
+  padding: 14px 18px;
+  width: 100%;
+  height: 91px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.modal-review-form-comment::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-review-form-input-mobile {
+  width: 100%;
+  height: 45px;
+  border: 1.5px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+  padding-left: 106px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.modal-review-form-input-mobile::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.modal-review-form-input-wrapper {
+  position: relative;
+}
+
+.modal-review-form-input-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 16px;
+  top: -2px;
+}
+
+.mobile-code {
+  position: absolute;
+  left: 50px;
+  top: 3px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* /MODAL FORM */
