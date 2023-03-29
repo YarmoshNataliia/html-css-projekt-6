@@ -27,16 +27,16 @@
 /* ********** Products ***************** */
 
 .our-prod-piece {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
 }
 @media (min-width: 768px) {
   .our-prod-piece {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 @media (min-width: 1200px) {
   .our-prod-piece {
-    margin-bottom: 128px;
+    padding-bottom: 128px;
   }
 }
 
