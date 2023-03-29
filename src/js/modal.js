@@ -6,8 +6,18 @@ buyBtns.forEach(btn => {
   });
 });
 
-const reviewBtn = document.querySelectorAll('.leave-review-button');
-const subscribeBtn = document.querySelectorAll('.subscribe-btn');
+const closeMobalBtns = document.querySelectorAll('.js-close-modal');
+
+closeMobalBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    const modal = btn.closest('.modal');
+    if (modal) {
+      hideModal(modal);
+    }
+  });
+});
+
+const subscribeBtn = document.querySelector('.subscribe-btn');
 
 const topSelModal = document.querySelector('.top-sel-modal');
 const topSelModalForm = document.querySelector('.top-sel-form');
@@ -18,8 +28,15 @@ const buyModalPopupCloseBtn = document.querySelector(
   '.buy-modal-popup-close-button'
 );
 
-const reviewModal = document.querySelector('.leave-review-modal');
-const subscribeModal = document.querySelector('.subscribe-modal');
+const reviewModal = document.querySelector('.modal-review');
+const reviewBtn = document.querySelector('.leave-review-button');
+const reviewModalForm = document.querySelector('.modal-review-form');
+const reviewPopup = document.querySelector('.review-popup');
+const reviewPopupCloseButton = document.querySelector(
+  '.review-popup-close-button'
+);
+
+const subscribeModal = document.querySelector('.modal-subscribe');
 
 const backdrop = document.querySelector('.top-sel-back-drop');
 
@@ -39,6 +56,12 @@ topSelModalForm.addEventListener('submit', event => {
   topSelModal.classList.add('is-hidden');
 });
 
+reviewModalForm.addEventListener('submit', event => {
+  event.preventDefault();
+  reviewPopup.classList.remove('is-hidden');
+  reviewModal.classList.add('is-hidden');
+});
+
 closeBuyModalBtn.addEventListener('click', () => {
   topSelModal.classList.add('is-hidden');
   backdrop.classList.add('is-hidden');
@@ -48,16 +71,17 @@ buyModalPopupCloseBtn.addEventListener('click', () => {
   topSelPopup.classList.add('is-hidden');
   topSelModalForm.submit();
 });
+
+reviewPopupCloseButton.addEventListener('click', () => {
+  reviewPopup.classList.add('is-hidden');
+  reviewModalForm.submit();
+});
 reviewBtn.addEventListener('click', () => {
   showModal(reviewModal);
 });
 
 subscribeBtn.addEventListener('click', () => {
   showModal(subscribeModal);
-});
-
-backdrop.addEventListener('click', () => {
-  hideModal(backdrop.closest('.modal'));
 });
 
 //да, мне стыдно, комментарии добавлю если закинете сотку на энергетосы на 4441114423214186

@@ -181,6 +181,39 @@
   padding-right: 18px;
   margin-bottom: 18px;
 }
+.credit-card-input input:focus {
+  outline: none;
+}
+
+.credit-card-input input::-webkit-outer-spin-button,
+.credit-card-input input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.credit-card-input input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.credit-card-input input::-moz-placeholder {
+  color: #ccc;
+}
+
+.credit-card-input input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+.credit-card-input input::-ms-input-placeholder {
+  color: #ccc;
+}
+
+.credit-card-input input::placeholder {
+  color: #ccc;
+}
+
+.credit-card-input input:not(:last-child) {
+  margin-right: 0.5rem;
+}
 
 @media (min-width: 768px) {
   .top-sel-form-input {
@@ -362,6 +395,31 @@
     overflow: hidden;
   }
 }
+
+.review-popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 311px;
+  height: 350px;
+  z-index: 21;
+  background: var(--clr-orange);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .review-popup {
+    width: 516px;
+    height: 414px;
+
+    background: var(--clr-orange);
+    border-radius: 15px;
+    overflow: hidden;
+  }
+}
+
 .top-sel-popup-wraper {
   position: absolute;
   top: 84px;
@@ -376,6 +434,22 @@
     width: 309px;
   }
 }
+
+.review-popup-wraper {
+  position: absolute;
+  top: 84px;
+  left: 58px;
+  width: 229px;
+}
+
+@media (min-width: 768px) {
+  .review-popup-wraper {
+    top: 163px;
+    left: 170px;
+    width: 297px;
+  }
+}
+
 .top-sel-popup-title {
   font-weight: 600;
   font-size: 20px;
@@ -396,13 +470,15 @@
 }
 
 .top-sel-popup-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
-  /* or 114% */
-
   letter-spacing: -0.02em;
   color: var(--clr-txt-white);
+}
+@media (max-width: 767px) {
+  .review-modal-popup-text {
+    max-width: 180px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -457,8 +533,6 @@
   background-color: var(--clr-txt-white);
 }
 
-/* ////////////////////Finih/////////////// */
-
 @media (max-width: 767px) {
   .mob-act {
     display: none;
@@ -466,12 +540,119 @@
 }
 
 .top-sel-back-drop {
-  /* display: none;  */
   z-index: 11;
 }
 
-.top-sel-popup {
-  /* display: none;  */
+/* subscribe modal  */
+.modal-subscribe {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+  max-width: 311px;
+  min-height: 350px;
+  background-color: #fafafa;
+  border-radius: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 200px;
+  overflow: hidden;
+  z-index: 15;
 }
 
-/* ///////////////////////////////////////// */
+@media screen and (min-width: 768px) {
+  .modal-subscribe {
+    padding: 40px;
+    max-width: 538px;
+    max-height: 412px;
+    padding-top: 236px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0;
+  }
+}
+
+.modal-subscribe-top-banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 169px;
+  background-image: url(../../images/pop-up-landscape-mobile.jpg);
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-subscribe-top-banner {
+    background-image: url(../../images/pop-up-landscape-mobile@2x.jpg);
+  }
+}
+
+.modal-subscribe .modal-review-form {
+  position: relative;
+}
+.modal-subscribe .modal-review-form-input {
+  border-radius: 100px;
+}
+.modal-subscribe-text {
+  max-width: 302px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.modal-subscribe .modal-review-form-submit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  height: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-subscribe {
+    height: 412px;
+    width: 538px;
+  }
+  .modal-subscribe-text {
+    width: 350px;
+    margin-bottom: 28px;
+  }
+  .modal-subscribe-text .action-user-wrapper {
+    display: inline;
+  }
+  .modal-subscribe .modal-review-form-input {
+    height: 52px;
+    width: 313px;
+    margin-right: 8px;
+  }
+  .modal-subscribe .modal-review-form-submit {
+    height: 52px;
+    width: 137px;
+  }
+
+  .modal-subscribe-top-banner {
+    height: 196px;
+    background-image: url(../../images/pop-up-landscape.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .modal-subscribe-top-banner {
+      background-image: url(../../images/pop-up-landscape@2x.jpg);
+    }
+  }
+}
+.modal-subscribe .modal-review-close-btn {
+  stroke: var(--clr-txt-white);
+  z-index: 16;
+}
