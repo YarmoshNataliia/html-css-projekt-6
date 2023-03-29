@@ -54,7 +54,7 @@
 
 .subscribe-title {
   margin: 0 auto;
-  width: 291px;
+  max-width: 291px;
   color: var(--clr-txt-white);
   font-weight: 600;
   font-size: 20px;

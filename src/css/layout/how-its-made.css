@@ -89,7 +89,7 @@
   min-width: 335px;
   min-height: 500px;
 }
-.hitm-picture::before {
+.hitm-video::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -100,22 +100,6 @@
   background-image: url('../images/play.svg');
   border: 1px solid var(--clr-txt-white);
   border-radius: 50%;
-}
-.hitm-thumb::before:hover,
-.hitm-thumb::before:focus,
-.hitm-thumb::before:active {
-  pointer-events: none;
-  opacity: 0;
-}
-.hitm-thumb::before:hover,
-.hitm-thumb::before:focus,
-.hitm-thumb::before:active + .hitm-picture {
-  display: none;
-}
-.hitm-thumb::before:hover,
-.hitm-thumb::before:focus,
-.hitm-thumb::before:active + .hitm-video {
-  display: block;
 }
 
 .how-its-made-iframe-wrapper {
@@ -128,11 +112,26 @@
   border-radius: 15px;
   height: 100%;
   width: 100%;
+  background-image: url(../../images/how-made-mobile.jpg);
+  cursor: pointer;
 }
 @media (max-width: 1199px) {
   .how-its-made-iframe-wrapper {
     margin-bottom: 20px;
   }
+}
+
+.hitm-video {
+  padding-top: 400px;
+}
+.hitm-iframe {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .how-its-made-iframe {
@@ -185,12 +184,4 @@
   .how-its-made-iframe-wrapper {
     margin-right: 20px;
   }
-}
-.hitm-video {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
 }
