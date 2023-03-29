@@ -27,7 +27,17 @@
 /* ********** Products ***************** */
 
 .our-prod-piece {
-  margin-bottom: 151px;
+  padding-bottom: 72px;
+}
+@media (min-width: 768px) {
+  .our-prod-piece {
+    padding-bottom: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .our-prod-piece {
+    padding-bottom: 128px;
+  }
 }
 
 .our-prod-catalogue {

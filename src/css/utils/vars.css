@@ -8,10 +8,18 @@
   --clr-dark-violet: #1e1823;
   --clr-hover-cream: #fcf1e0;
   --clr-sliders: rgba(17, 17, 17, 0.1);
+  --clr-modal-input-border: rgba(17, 17, 17, 0.05);
   --time-transition: 250ms;
   --l-gradient: linear-gradient(
     180deg,
     rgba(17, 17, 17, 0) 0%,
     rgba(17, 17, 17, 0.4) 100%
   );
+  --l-gradient-sub: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2)
+  );
+  --modal-window-bgc: rgba(46, 47, 66, 0.4);
+  --modal-bgc: #fafafa;
 }

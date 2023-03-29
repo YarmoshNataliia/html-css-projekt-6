@@ -1,7 +1,7 @@
 .subscribe-section {
   text-align: center;
-  background-color: #1e1823;
-  background-image: var(--l-gradient), url(../../images/subcribe-mobile.jpg);
+  background-color: var(--clr-dark-violet);
+  background-image: var(--l-gradient-sub), url(../../images/subcribe-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,14 +11,14 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .subscribe-section {
-    background-image: var(--l-gradient),
+    background-image: var(--l-gradient-sub),
       url(../../images/subcribe-mobile@2x.jpg);
   }
 }
 
 @media (min-width: 768px) {
   .subscribe-section {
-    background-image: var(--l-gradient),
+    background-image: var(--l-gradient-sub),
       url(../../images/subcribe-tablet.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -26,22 +26,22 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe-section {
-      background-image: var(--l-gradient),
+      background-image: var(--l-gradient-sub),
         url(../../images/subcribe-tablet@2x.jpg);
     }
   }
 }
 @media (min-width: 1200px) {
   .subscribe-section {
-    background-image: var(--l-gradient),
-      url(../../images/subcribe-desktop.jpg) ;
+    background-image: var(--l-gradient-sub),
+      url(../../images/subcribe-desktop.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .subscribe-section {
-      background-image: var(--l-gradient),
+      background-image: var(--l-gradient-sub),
         url(../../images/subcribe-desktop@2x.jpg);
     }
   }
@@ -55,7 +55,7 @@
 .subscribe-title {
   margin: 0 auto;
   width: 291px;
-  color: #fff;
+  color: var(--clr-txt-white);
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -73,7 +73,7 @@
 .subscribe-text {
   margin: 0 auto;
   max-width: 100%;
-  color: #fff;
+  color: var(--clr-txt-white);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.28;
@@ -92,8 +92,8 @@
   line-height: 1.21;
   font-family: 'Montserrat';
   width: 128px;
-  color: #fff;
-  background-color: #fd9222;
+  color: var(--clr-txt-white);
+  background-color: var(--clr-orange);
   border-radius: 100px;
   border-color: transparent;
   padding: 12px 28px;
@@ -108,5 +108,5 @@
 }
 .subscribe-btn:hover {
   color: #fd9222;
-  background-color: #fcf1e0;
+  background-color: var(--clr-hover-cream);
 }
