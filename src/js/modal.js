@@ -1,5 +1,3 @@
-//да, мне стыдно
-
 const buyBtns = document.querySelectorAll('.buy-button');
 
 buyBtns.forEach(btn => {
@@ -14,6 +12,7 @@ const subscribeBtn = document.querySelectorAll('.subscribe-btn');
 const topSelModal = document.querySelector('.top-sel-modal');
 const topSelModalForm = document.querySelector('.top-sel-form');
 const buyModalSubmitBtn = document.querySelector('.buy-modal-submit-button');
+const closeBuyModalBtn = document.querySelector('.modal-btn-close');
 const topSelPopup = document.querySelector('.top-sel-popup');
 const buyModalPopupCloseBtn = document.querySelector(
   '.buy-modal-popup-close-button'
@@ -34,10 +33,15 @@ function hideModal(modal) {
   backdrop.classList.add('is-hidden');
 }
 
-buyModalSubmitBtn.addEventListener('click', event => {
+topSelModalForm.addEventListener('submit', event => {
   event.preventDefault();
   topSelPopup.classList.remove('is-hidden');
   topSelModal.classList.add('is-hidden');
+});
+
+closeBuyModalBtn.addEventListener('click', () => {
+  topSelModal.classList.add('is-hidden');
+  backdrop.classList.add('is-hidden');
 });
 
 buyModalPopupCloseBtn.addEventListener('click', () => {
@@ -52,12 +56,8 @@ subscribeBtn.addEventListener('click', () => {
   showModal(subscribeModal);
 });
 
-[...document.querySelectorAll('.modal-close-button')].forEach(closeBtn => {
-  closeBtn.addEventListener('click', () => {
-    hideModal(closeBtn.closest('.modal'));
-  });
-});
-
 backdrop.addEventListener('click', () => {
   hideModal(backdrop.closest('.modal'));
 });
+
+//да, мне стыдно, комментарии добавлю если закинете сотку на энергетосы на 4441114423214186
