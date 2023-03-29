@@ -19,7 +19,7 @@
 .main-btn:focus {
   color: #fd9222;
   background-color: #fcf1e0;
-  transition: 250ms;
+  transition: var(--time-transition);
 }
 
 .secondary-btn {
@@ -42,7 +42,7 @@
 .secondary-btn:focus {
   color: #fd9222;
   border: 1px solid #fd9222;
-  transition: 250ms;
+  transition: var(--time-transition);
 }
 
 .inverted-btn {
@@ -65,5 +65,5 @@
 .inverted-btn:focus {
   background-color: #fd9222;
   color: #fff;
-  transition: 250ms;
+  transition: var(--time-transition);
 }
