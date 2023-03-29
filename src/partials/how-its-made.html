@@ -4,50 +4,19 @@
       How it’s <span class="hitm-title-scnd">made?</span>
     </h2>
     <div class="hitm-desk">
-      <!-- <div class="hitm-thumb">
-        <iframe
-          class="hitm-video"
-          src="https://www.youtube.com/embed/mGnpyv25ILU?autoplay=0"
-          frameborder="0"
-          allowfullscreen
-        >
-          <picture class="hitm-picture">
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                ../images/how-made-mobile.jpg    1x,
-                ../images/how-made-mobile@2x.jpg 2x
-              "
-            />
-            <source
-              media="(max-width: 1199px)"
-              srcset="
-                ../images/how-made-tablet.jpg    1x,
-                ../images/how-made-tablet@2x.jpg 2x
-              "
-            />
-            <img
-              srcset="
-                ../images/how-made-desktop.jpg 1x,
-                ../images/how-made-desktop@2x  2x
-              "
-              src="../images/how-made-desktop.jpg"
-              alt="pastry-chef-preparing-chocolate-cake"
-            />
-          </picture>
-        </iframe>
-      </div> -->
-
       <div class="how-its-made-iframe-wrapper">
         <iframe
           class="how-its-made-iframe"
-          width="614"
-          height="400"
-          src="https://www.youtube.com/embed/mGnpyv25ILU?autoplay=0"
+          id="video"
+          src="https://www.youtube.com/embed/mGnpyv25ILU"
           frameborder="0"
           allowfullscreen
         ></iframe>
         <picture class="hitm-picture">
+          <source
+            media="(max-width: 374px)"
+            srcset="../images/how-made-mobilier.jpg 1x"
+          />
           <source
             media="(max-width: 767px)"
             srcset="
@@ -62,10 +31,17 @@
               ../images/how-made-tablet@2x.jpg 2x
             "
           />
+          <source
+            media="(min-width: 1200px)"
+            srcset="
+              ../images/how-made-desktop.jpg    1x,
+              ../images/how-made-desktop@2x.jpg 2x
+            "
+          />
           <img
             srcset="
-              ../images/how-made-desktop.jpg 1x,
-              ../images/how-made-desktop@2x  2x
+              ../images/how-made-desktop.jpg    1x,
+              ../images/how-made-desktop@2x.jpg 2x
             "
             src="../images/how-made-desktop.jpg"
             alt="pastry-chef-preparing-chocolate-cake"
