@@ -115,6 +115,45 @@
   background-image: url(../../images/how-made-mobile.jpg);
   cursor: pointer;
 }
+
+@media screen and (min-width: 768px) {
+  .how-its-made-iframe-wrapper {
+    background-image: url(../../images/how-made-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .how-its-made-iframe-wrapper {
+    background-image: url(../../images/how-made-desktop.jpg);
+  }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .how-its-made-iframe-wrapper {
+    background-image: url(../../images/how-made-mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 768px),
+  (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-its-made-iframe-wrapper {
+    background-image: url(../../images/how-made-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 1200px),
+  (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .how-its-made-iframe-wrapper {
+    background-image: url(../../images/how-made-desktop@2x.jpg);
+  }
+}
+
 @media (max-width: 1199px) {
   .how-its-made-iframe-wrapper {
     margin-bottom: 20px;
