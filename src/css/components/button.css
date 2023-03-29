@@ -1,4 +1,7 @@
 .main-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
   color: #fff;
   background-color: #fd9222;
   border-radius: 100px;
@@ -16,10 +19,14 @@
 .main-btn:focus {
   color: #fd9222;
   background-color: #fcf1e0;
+  transition: 250ms;
 }
 
 .secondary-btn {
-  margin: 10px 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
   color: #fff;
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0);
@@ -35,10 +42,14 @@
 .secondary-btn:focus {
   color: #fd9222;
   border: 1px solid #fd9222;
+  transition: 250ms;
 }
 
 .inverted-btn {
-  margin: 10px 10px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
   color: #111;
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0);
@@ -54,4 +65,5 @@
 .inverted-btn:focus {
   background-color: #fd9222;
   color: #fff;
+  transition: 250ms;
 }
