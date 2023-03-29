@@ -36,7 +36,7 @@ const reviewPopupCloseButton = document.querySelector(
   '.review-popup-close-button'
 );
 
-const subscribeModal = document.querySelector('.subscribe-modal');
+const subscribeModal = document.querySelector('.modal-subscribe');
 
 const backdrop = document.querySelector('.top-sel-back-drop');
 

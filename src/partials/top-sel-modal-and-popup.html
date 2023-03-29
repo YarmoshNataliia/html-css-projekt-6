@@ -326,3 +326,33 @@
     </svg>
   </button>
 </div>
+
+<div class="modal-subscribe modal is-hidden">
+  <button type="button" class="modal-review-close-btn js-close-modal">
+    <svg class="modal-review-close-btn-icon" width="24" height="24">
+      <use href="../images/icons.svg#icon-x-close"></use>
+    </svg>
+  </button>
+  <div class="modal-subscribe-top-banner"></div>
+  <p class="modal-subscribe-text">
+    explore our&nbsp;<br /><span class="action-user-wrapper"
+      >new chocolate</span
+    >
+    first!
+  </p>
+  <form class="modal-review-form">
+    <label class="modal-review-form-field">
+      <input
+        placeholder="Enter your email"
+        type="email"
+        name="user-email"
+        class="modal-review-form-input"
+        required
+        pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+        title="user@mail.com"
+      />
+    </label>
+
+    <button type="submit" class="modal-review-form-submit">Submit</button>
+  </form>
+</div>
