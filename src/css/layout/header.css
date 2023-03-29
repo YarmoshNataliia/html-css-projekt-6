@@ -64,12 +64,6 @@
   margin-right: 4px;
 }
 
-@media screen and (min-width: 1200px) {
-  .logo-link {
-    display: none;
-  }
-}
-
 .logo-second {
   font-style: normal;
 }
@@ -119,17 +113,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  stroke: var(--clr-txt-white);
+  fill: var(--clr-txt-primery);
+  background-color: transparent;
+}
+
+.header-socials-menu-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: var(--clr-txt-white);
   background-color: transparent;
 }
 
 .header-socials-link:hover,
 .header-socials-link:focus {
   stroke: var(--clr-orange);
-}
-
-.header-socials-icon {
-  stroke: var(--clr-txt-primery);
 }
 
 @media (max-width: 1199px) {
