@@ -11,7 +11,7 @@ html {
   margin: 0 auto;
   background-color: var(--clr-dark-violet);
   background-image: var(--l-gradient),
-    url(../images/chocolate-covered-cocoa-powder-mobile.jpg);
+    url(/images/chocolate-covered-cocoa-powder-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,7 +25,7 @@ html {
   (min-resolution: 2dppx) {
   .hero-bg {
     background-image: var(--l-gradient),
-      url(../images/chocolate-covered-cocoa-powder-mobile@2x.jpg);
+      url(/images/chocolate-covered-cocoa-powder-mobile@2x.jpg);
   }
 }
 
