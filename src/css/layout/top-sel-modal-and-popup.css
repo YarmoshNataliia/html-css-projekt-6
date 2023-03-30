@@ -616,6 +616,11 @@
   margin: 0;
   height: 45px;
 }
+.modal-subscribe-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
 
 @media screen and (min-width: 768px) {
   .modal-subscribe {
