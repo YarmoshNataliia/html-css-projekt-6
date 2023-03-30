@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Simply Chocolate</title>
-    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiU2ltcGx5IENob2NvbGF0ZSIsInNob3J0X25hbWUiOiJTaW1wbHkgQ2hvY29sYXRlIiwiaWNvbnMiOlt7InNyYyI6Ii9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsInNpemVzIjoiMTkyeDE5MiIsInR5cGUiOiJpbWFnZS9wbmcifSx7InNyYyI6Ii9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsInNpemVzIjoiNTEyeDUxMiIsInR5cGUiOiJpbWFnZS9wbmcifV0sInRoZW1lX2NvbG9yIjoiI2ZmZmZmZiIsImJhY2tncm91bmRfY29sb3IiOiIjZmZmZmZmIiwiZGlzcGxheSI6InN0YW5kYWxvbmUifQ==" />
+    <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjoiU2ltcGx5IENob2NvbGF0ZSIsInNob3J0X25hbWUiOiJTaW1wbHkgQ2hvY29sYXRlIiwiaWNvbnMiOlt7InNyYyI6Ii9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsInNpemVzIjoiMTkyeDE5MiIsInR5cGUiOiJpbWFnZS9wbmcifSx7InNyYyI6Ii9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsInNpemVzIjoiNTEyeDUxMiIsInR5cGUiOiJpbWFnZS9wbmcifV0sInRoZW1lX2NvbG9yIjoiI2ZmZmZmZiIsImJhY2tncm91bmRfY29sb3IiOiIjZmZmZmZmIiwiZGlzcGxheSI6InN0YW5kYWxvbmUifQoK" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -36,7 +36,7 @@
     />
     <!-- base styles -->
     
-    <script type="module" crossorigin src="/html-css-projekt-6/assets/index-c5cc64f3.js"></script>
+    <script type="module" crossorigin src="/html-css-projekt-6/assets/index-c90f2f4e.js"></script>
     <link rel="stylesheet" href="/html-css-projekt-6/assets/index-179d246e.css">
   </head>
   <body>
@@ -606,10 +606,6 @@
       <ul class="top-sellers-pic-list-pc">
         <li class="top-sellers-pic-item">
           <img
-            srcset="
-              ./images/sell-1-desktop.jpg   1x,
-              ./images/sell-1-desktop@2.jpg 2x
-            "
             src="/html-css-projekt-6/assets/sell-1-desktop-a28c59c6.jpg"
             class="top-sellers-pic"
             alt="chocolate with nuts"
@@ -617,10 +613,6 @@
         </li>
         <li class="top-sellers-pic-item">
           <img
-            srcset="
-              ./images/sell-2-desktop.jpg   1x,
-              ./images/sell-2-desktop@2.jpg 2x
-            "
             src="/html-css-projekt-6/assets/sell-2-desktop-b6397aef.jpg"
             class="top-sellers-pic"
             alt="pile of chocolate"
@@ -628,10 +620,6 @@
         </li>
         <li class="top-sellers-pic-item">
           <img
-            srcset="
-              ./images/sell-3-desktop.jpg   1x,
-              ./images/sell-3-desktop@2.jpg 2x
-            "
             src="/html-css-projekt-6/assets/sell-3-desktop-d903788c.jpg"
             class="top-sellers-pic"
             alt="pile of chocolate"
@@ -658,10 +646,6 @@
       <ul class="top-sellers-pic-list-mobile">
         <li class="top-sellers-pic-item">
           <img
-            srcset="
-              ./images/sell-1-mobile.jpg   1x,
-              ./images/sell-1-mobile@2.jpg 2x
-            "
             src="/html-css-projekt-6/assets/sell-1-mobile-0dfc8c79.jpg"
             class="top-sellers-pic"
             alt="chocolate with nuts"
@@ -674,10 +658,6 @@
         </li>
         <li class="top-sellers-pic-item">
           <img
-            srcset="
-              ./images/sell-2-mobile.jpg   1x,
-              ./images/sell-2-mobile@2.jpg 2x
-            "
             src="/html-css-projekt-6/assets/sell-2-mobile-679b0589.jpg"
             class="top-sellers-pic"
             alt="pile of chocolate"
@@ -824,7 +804,6 @@
     </main>
 
     <footer class="footer" id="footer-id">
-  <p><a name="footer"></a></p>
   <div class="container footer-container">
     <div class="wrapper">
       <div class="wrapper-slogan">
@@ -1011,7 +990,7 @@
         name="email"
         placeholder="enter your email"
         required
-        pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         title="user@mail.com"
       />
       <!-- Phone number -->
@@ -1140,7 +1119,7 @@
         name="user-email"
         class="modal-review-form-input"
         required
-        pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         title="user@mail.com"
       />
     </label>
@@ -1229,7 +1208,7 @@
         name="user-email"
         class="modal-review-form-input"
         required
-        pattern="[^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$]"
+        pattern="^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
         title="user@mail.com"
       />
     </label>
