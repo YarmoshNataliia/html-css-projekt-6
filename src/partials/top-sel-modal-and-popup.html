@@ -110,6 +110,7 @@
           pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
           minlength="2"
         />
+
         <!-- Surname -->
         <input
           class="top-sel-form-input"
@@ -169,9 +170,10 @@
           name="card"
           required
           inputmode="numeric"
-          pattern="[0-9]*"
+          pattern="[0-9\s]*"
           data-credit-card-mask
           placeholder="XXXX XXXX XXXX XXXX"
+          oninput="this.value = this.value.replace(/[^0-9\s]/g, '')"
         />
       </div>
       <!-- Comment -->
