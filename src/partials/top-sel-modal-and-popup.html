@@ -110,6 +110,7 @@
           pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
           minlength="2"
         />
+
         <!-- Surname -->
         <input
           class="top-sel-form-input"
@@ -169,9 +170,10 @@
           name="card"
           required
           inputmode="numeric"
-          pattern="[0-9]*"
+          pattern="[0-9\s]*"
           data-credit-card-mask
           placeholder="XXXX XXXX XXXX XXXX"
+          oninput="this.value = this.value.replace(/[^0-9\s]/g, '')"
         />
       </div>
       <!-- Comment -->
@@ -245,7 +247,6 @@
         name="user-name"
         class="modal-review-form-input"
         required
-        autofocus
         pattern="^[a-zA-Zа-яА-ЯіІїЇ]+$"
         minlength="2"
       />
@@ -264,15 +265,13 @@
     <label class="modal-review-form-field">
       <span class="modal-review-form-input-wrapper">
         <input
-          class="top-sel-form-input top-sel-form-inp-left-sp"
+          class="top-sel-form-input top-sel-form-inp-left-sp modal-review-form-input-mobile"
           placeholder="Phone number"
           type="tel"
           name="user-phone"
-          class="modal-review-form-input-mobile"
           required
           data-phone-mask
           title="**) **-**-***"
-          placeholder="phone number"
         />
         <svg class="modal-review-form-input-icon">
           <use href="./images/icons.svg#icon-flag"></use>
@@ -340,7 +339,7 @@
     >
     first!
   </p>
-  <form class="modal-review-form">
+  <form class="modal-subscribe-form">
     <label class="modal-review-form-field">
       <input
         placeholder="Enter your email"
