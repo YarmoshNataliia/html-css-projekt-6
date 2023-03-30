@@ -146,7 +146,7 @@ html {
   .hero-bg {
     height: 890px;
     background-image: var(--l-gradient),
-      url(../images/chocolate-covered-cocoa-powder-tablet.jpg);
+      url(/images/chocolate-covered-cocoa-powder-tablet.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -154,7 +154,7 @@ html {
     (min-resolution: 2dppx) {
     .hero-bg {
       background-image: var(--l-gradient),
-        url(../images/chocolate-covered-cocoa-powder-tablet@2x.jpg);
+        url(/images/chocolate-covered-cocoa-powder-tablet@2x.jpg);
     }
     .hero-link-scrol {
       font-weight: 500;
@@ -226,7 +226,7 @@ html {
   .hero-bg {
     height: 600px;
     background-image: var(--l-gradient),
-      url(../images/chocolate-covered-cocoa-powder-desktop.jpg);
+      url(/images/chocolate-covered-cocoa-powder-desktop.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -234,7 +234,7 @@ html {
     (min-resolution: 2dppx) {
     .hero-bg {
       background-image: var(--l-gradient),
-        url(../images/chocolate-covered-cocoa-powder-desktop@2x.jpg);
+        url(/images/chocolate-covered-cocoa-powder-desktop@2x.jpg);
     }
   }
   .hero-wrap {
