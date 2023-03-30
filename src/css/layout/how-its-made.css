@@ -97,7 +97,7 @@
   transform: translate(-50%, -50%);
   width: 44px;
   height: 44px;
-  background-image: url('../images/play.svg');
+  background-image: url('/images/play.svg');
   border: 1px solid var(--clr-txt-white);
   border-radius: 50%;
 }
@@ -112,19 +112,19 @@
   border-radius: 15px;
   height: 100%;
   width: 100%;
-  background-image: url(../../images/how-made-mobile.jpg);
+  background-image: url(..//images/how-made-mobile.jpg);
   cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
   .how-its-made-iframe-wrapper {
-    background-image: url(../../images/how-made-tablet.jpg);
+    background-image: url(..//images/how-made-tablet.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) {
   .how-its-made-iframe-wrapper {
-    background-image: url(../../images/how-made-desktop.jpg);
+    background-image: url(..//images/how-made-desktop.jpg);
   }
 }
 
@@ -132,7 +132,7 @@
   screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx) {
   .how-its-made-iframe-wrapper {
-    background-image: url(../../images/how-made-mobile@2x.jpg);
+    background-image: url(..//images/how-made-mobile@2x.jpg);
   }
 }
 
@@ -141,7 +141,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .how-its-made-iframe-wrapper {
-    background-image: url(../../images/how-made-tablet@2x.jpg);
+    background-image: url(..//images/how-made-tablet@2x.jpg);
   }
 }
 
@@ -150,7 +150,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .how-its-made-iframe-wrapper {
-    background-image: url(../../images/how-made-desktop@2x.jpg);
+    background-image: url(..//images/how-made-desktop@2x.jpg);
   }
 }
 

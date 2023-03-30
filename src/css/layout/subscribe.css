@@ -1,7 +1,7 @@
 .subscribe-section {
   text-align: center;
   background-color: var(--clr-dark-violet);
-  background-image: var(--l-gradient-sub), url(../../images/subcribe-mobile.jpg);
+  background-image: var(--l-gradient-sub), url(..//images/subcribe-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,14 +12,13 @@
   (min-resolution: 2dppx) {
   .subscribe-section {
     background-image: var(--l-gradient-sub),
-      url(../../images/subcribe-mobile@2x.jpg);
+      url(..//images/subcribe-mobile@2x.jpg);
   }
 }
 
 @media (min-width: 768px) {
   .subscribe-section {
-    background-image: var(--l-gradient-sub),
-      url(../../images/subcribe-tablet.jpg);
+    background-image: var(--l-gradient-sub), url(..//images/subcribe-tablet.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -27,14 +26,14 @@
     (min-resolution: 2dppx) {
     .subscribe-section {
       background-image: var(--l-gradient-sub),
-        url(../../images/subcribe-tablet@2x.jpg);
+        url(..//images/subcribe-tablet@2x.jpg);
     }
   }
 }
 @media (min-width: 1200px) {
   .subscribe-section {
     background-image: var(--l-gradient-sub),
-      url(../../images/subcribe-desktop.jpg);
+      url(..//images/subcribe-desktop.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
@@ -42,7 +41,7 @@
     (min-resolution: 2dppx) {
     .subscribe-section {
       background-image: var(--l-gradient-sub),
-        url(../../images/subcribe-desktop@2x.jpg);
+        url(..//images/subcribe-desktop@2x.jpg);
     }
   }
 }
