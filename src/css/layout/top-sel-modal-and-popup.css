@@ -580,7 +580,7 @@
   top: 0;
   width: 100%;
   height: 169px;
-  background-image: url(..//images/pop-up-landscape-mobile.jpg);
+  background-image: url(/images/pop-up-landscape-mobile.jpg);
   background-position: center;
 }
 
@@ -589,7 +589,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .modal-subscribe-top-banner {
-    background-image: url(..//images/pop-up-landscape-mobile@2x.jpg);
+    background-image: url(/images/pop-up-landscape-mobile@2x.jpg);
   }
 }
 
@@ -641,14 +641,14 @@
 
   .modal-subscribe-top-banner {
     height: 196px;
-    background-image: url(..//images/pop-up-landscape.jpg);
+    background-image: url(/images/pop-up-landscape.jpg);
   }
   @media (min-device-pixel-ratio: 2),
     (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .modal-subscribe-top-banner {
-      background-image: url(..//images/pop-up-landscape@2x.jpg);
+      background-image: url(/images/pop-up-landscape@2x.jpg);
     }
   }
 }
