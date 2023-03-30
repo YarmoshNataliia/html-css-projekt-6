@@ -1,0 +1,69 @@
+.main-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #fff;
+  background-color: #fd9222;
+  border-radius: 100px;
+  border-color: transparent;
+  padding: 12px 28px;
+  cursor: pointer;
+  font: inherit;
+}
+@media (min-width: 375px) {
+  .main-btn {
+    padding: 14px 40px;
+  }
+}
+.main-btn:hover,
+.main-btn:focus {
+  color: #fd9222;
+  background-color: #fcf1e0;
+  transition: var(--time-transition);
+}
+
+.secondary-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #fff;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #ffffff;
+  padding: 12px 28px;
+}
+@media (min-width: 375px) {
+  .secondary-btn {
+    padding: 14px 40px;
+  }
+}
+.secondary-btn:hover,
+.secondary-btn:focus {
+  color: #fd9222;
+  border: 1px solid #fd9222;
+  transition: var(--time-transition);
+}
+
+.inverted-btn {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+
+  color: #111;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fd9222;
+  padding: 12px 28px;
+}
+@media (min-width: 375px) {
+  .inverted-btn {
+    padding: 14px 40px;
+  }
+}
+.inverted-btn:hover,
+.inverted-btn:focus {
+  background-color: #fd9222;
+  color: #fff;
+  transition: var(--time-transition);
+}

@@ -15,7 +15,7 @@
 
 /* component */
 @import url('./components/container.css');
-
+@import url('./components/button.css');
 /* layout */
 @import url('./layout/header.css');
 @import url('./layout/hero.css');
@@ -27,3 +27,5 @@
 @import url('./layout/reviews.css');
 @import url('./layout/subscribe.css');
 @import url('./layout/footer.css');
+@import url('./layout/modal-review.css');
+@import url('./layout/top-sel-modal-and-popup.css');

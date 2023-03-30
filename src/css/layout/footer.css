@@ -1,0 +1,146 @@
+.footer {
+  background-color: var(--clr-dark-violet);
+  color: var(--clr-txt-white);
+  padding: 50px 0px;
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 32px 0px;
+  }
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: space-between;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper {
+    flex-direction: column;
+  }
+}
+
+.wrapper-slogan {
+  max-width: 300px;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .wrapper-slogan {
+    font-size: 24px;
+  }
+}
+
+.line {
+  color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 32px;
+}
+
+.logo-slogan {
+  color: var(--clr-orange);
+}
+
+.wrapper-contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper-contacts {
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .wrapper-contacts {
+    gap: 65px;
+  }
+}
+
+.wrapper-contacts-text {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.wrapper-contacts-address-title {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 14px;
+}
+
+.wrapper-contacts-address-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.wrapper-contacts-address-item:hover,
+.wrapper-contacts-address-item:focus {
+  color: var(--clr-orange);
+}
+
+.social {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  fill: var(--clr-txt-white);
+}
+
+.social-link:hover,
+.social-link:focus {
+  stroke: var(--clr-orange);
+}
+
+.social-icon {
+  width: 24px;
+  height: 24px;
+  stroke: inherit;
+  fill: inherit;
+}
+
+@media screen and (max-width: 767px) {
+  .social-icon {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+.refs {
+  display: flex;
+  gap: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .refs {
+    flex-direction: column;
+    gap: 18px;
+  }
+}
+
+.ref:hover,
+.ref:focus {
+  color: var(--clr-orange);
+}
