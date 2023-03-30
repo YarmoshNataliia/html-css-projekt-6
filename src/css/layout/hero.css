@@ -80,6 +80,7 @@ html {
   transition: var(--time-transition);
 }
 .hero-btn-made {
+  display: block;
 }
 .hero-scrol {
   display: flex;
